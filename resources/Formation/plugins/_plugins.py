@@ -1,6 +1,3 @@
-# Icss - UserBot
-# format for plugins
-
 import math
 import os
 import re
@@ -20,7 +17,6 @@ from userbot.Config import Config
 from userbot.helpers import *
 from userbot.helpers import _format, _icsstools, _icssutils
 
-# =================== Owner - Kimo ===================
 
 USERID = bot.uid if Config.OWNER_ID == 0 else Config.OWNER_ID
 ALIVE_NAME = Config.ALIVE_NAME
@@ -31,7 +27,6 @@ BOT_USERNAME = Config.TG_BOT_USERNAME
 ICSBOT = Config.TG_BOT_USERNAME
 ICSB = Config.TG_BOT_USERNAME
 
-# =================== Owner - Kimo ===================
 
 # mention user
 mention = f"[{DEFAULTUSER}](tg://user?id={USERID})"
@@ -42,11 +37,9 @@ TOSHA_ID = bot.me.id
 
 # Dev tag
 tosh = ( 
-    "𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 - 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹 𓆪\n"
-    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
-    "𓄂†  𝑫𝑬𝑽 𝑼𝑺𝑬𝑹 ↬ @rruuurr ༗\n"
-    "𓄂†  𝑫𝑬𝑽 𝑰𝑫 ↬ 1588663614 ༗\n"
-    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧˢᵃᑫᵗⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
+    "↬[- M𝙴𝙼𝙸𝙰𝙽 ODY 𐇰.](t.me/OORRR)༗\n"
+    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧˢᵃᑫᵗⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
 )
 
 # Repo 
@@ -54,9 +47,9 @@ R = (
     "⌔∮ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝘾𝙎𝙎 - 𝙍𝙀𝙋𝙊 𓆪 \n"
     "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
     "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](t.me/rruuurr) ⩫ \n"
-    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](https://github.com/ANL0KE/ICSS-USERBOT) ⩫"
+    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](https://github.com/odisho1997/SAQT-USERBOT) ⩫"
 )
-K = "https://github.com/ANL0KE/ICSS-USERBOT"
+K = "https://github.com/ANL0KE/SAQT-USERBOT"
 
 # Alive Bot 
 TOSH = (
