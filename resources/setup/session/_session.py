@@ -13,7 +13,7 @@ API_HASH = input("⌔∮ ENTER API HASH HERE - ")
 
 with tc(ss(), APP_ID, API_HASH) as client:
     ics = client.send_message("me", client.session.save())
-    ics.reply("⌔∮ هذا هو كود التيرمكس الخاص بك.\n⌔∮ المطور - @rruuurr. ")
+    ics.reply("⌔∮ هذا هو كود التيرمكس الخاص بك.\n⌔∮ المطور - @oorrr. ")
     print("")
     print("")
     print(
