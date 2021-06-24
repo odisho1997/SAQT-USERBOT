@@ -44,18 +44,18 @@ tosh = (
 
 # Repo 
 R = (
-    "⌔∮ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝘾𝙎𝙎 - 𝙍𝙀𝙋𝙊 𓆪 \n"
+    "⌔∮ 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐒𝐀𝐐𝐓 - 𝙍𝙀𝙋𝙊 𓆪 \n"
     "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
-    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](t.me/rruuurr) ⩫ \n"
-    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](https://github.com/odisho1997/SAQT-USERBOT) ⩫"
+    "- 𝐃𝐄𝐕 𝐒𝐎𝐔𝐑𝐂𝐄 ⪼ [- M𝙴𝙼𝙸𝙰𝙽 ODY 𐇰.](t.me/OORRR) ⩫ \n"
+    "- 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⪼ [┊ɴᴏᴠᴇᴍʙᴇʀ 💞' •](T.ME/NNEEE) ⩫"
 )
 K = "https://github.com/ANL0KE/SAQT-USERBOT"
 
 # Alive Bot 
 TOSH = (
-       f"**⌔∮ بوت اكسس يعمل بنجاح 🖤❕**\n"
+       f"**⌔∮ بوت  تليثون نوفمبر ɴᴏᴠᴇᴍʙᴇʀ يعمل بنجاح 🖤❕**\n"
        f"**   - اصدار التليثون :** `{version.__version__}\n`"
-       f"**   - اصدار اكسس :** `{icsv}`\n"
+       f"**   - اصدار ɴᴏᴠᴇᴍʙᴇʀ :** `{icsv}`\n"
        f"**   - البوت المستخدم :** `{ICSB}`\n"
        f"**   - اصدار البايثون :** `{python_version()}\n`"
        f"**   - المستخدم :** {mention}\n"
@@ -193,7 +193,7 @@ async def icsa():
         dyno = f"{AppHours}h {AppMinutes}m/{hours}h {minutes}m"
     except Exception as e:
         dyno = e
-    return f"**⌔∮ معلومات بوت اكسس***\
+    return f"**⌔∮ معلومات البوت***\
                  \n - قاعده البيانات : {check_sgnirts}\
                   \n - سودو : {sudo}\
                   \n - مدة التشغيل : {uptime}\
