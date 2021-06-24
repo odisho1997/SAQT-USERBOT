@@ -8,11 +8,11 @@ from userbot.Config import Config
 from userbot.plugins import mention
 
 # Kimo
-K = "https://t.me/rruuurr"
-D = "** ⌔∮ مطور بوت اكسس**"
+K = "https://t.me/OORRR"
+D = "** ⌔∮ 𝐃𝐄𝐕 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐒𝐀𝐐𝐓**"
 
 OWNER_ID = Config.OWNER_ID
-ALIVE_NAME = Config.ALIVE_NAME if Config.ALIVE_NAME else "@rruuurr"
+ALIVE_NAME = Config.ALIVE_NAME if Config.ALIVE_NAME else "@OORRR"
 
 # for OWNER_ID
 OId = Config.OWNER_ID
@@ -41,13 +41,13 @@ startotherena = MSSG
 startowner = f"** ⌔∮ اهلا بك مجدداً {ALIVE_NAME}. اختر احد الخيارات الاتيه:**"
 
 # for alive
-Def = str(ALIVE_NAME) if ALIVE_NAME else "Icss - User"
-asst_p = "https://telegra.ph/file/67cee497e773af0654c2b.jpg"
+Def = str(ALIVE_NAME) if ALIVE_NAME else "SAQT - User"
+asst_p = "https://telegra.ph/M%F0%9D%99%B4%F0%9D%99%BC%F0%9D%99%B8%F0%9D%99%B0%F0%9D%99%BD-ODY-06-24"
 asst_c = "➥ **ASSISTANT IS:** `ONLINE`\n"
 asst_c += f"➥ **My Boss** : {Def} \n"
 asst_c += "➥ **Heroku Database** : `AWS - Working Properly`\n"
-asst_c += "➥ **Copyright** : By [ANL0KE](github.com/ANL0KE)\n"
-asst_c += "[Assistant By ](https://t.me/rruuurr)"
+asst_c += "➥ **Copyright** : By [- M𝙴𝙼𝙸𝙰𝙽 ODY 𐇰.](https://t.me/OORRR)\n"
+asst_c += "[┊ɴᴏᴠᴇᴍʙᴇʀ 💞' •](https://t.me/NNEEE)"
 
 # for ping
 def get_readable_time(seconds: int) -> str:
@@ -375,7 +375,7 @@ SetMsg = [
     "⌔∮ يتم اكمال تنصيب بوتك في @BotFather",
     "⌔∮ تم تنصيب بوتك"
 ]
-SetDec = "- 𝙄𝘾𝙎𝙎 𝘼𝙎𝙎𝙄𝙎𝙏𝘼𝙉𝙏 𝘽𝙊𝙏 🔱\n- 𝙄𝘾𝙎𝙎 𝘽𝙊𝙏 𝙁𝙊𝙍 ~ {}\n- 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 ~ @rruuurr 𖤨"
-SetAbt = "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝘾𝙎𝙎 🔱\n- 𝙄𝘾𝙎𝙎 𝘽𝙊𝙏 𝙁𝙊𝙍 ~ {}"
+SetDec = "- 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝘼𝙎𝙎𝙄𝙎𝙏𝘼𝙉𝙏 𝘽𝙊𝙏 🔱\n- 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝘽𝙊𝙏 𝙁𝙊𝙍 ~ {}\n- 𝐃𝐄𝐕 𝐒𝐎𝐔𝐑𝐂𝐄 ~ [- M𝙴𝙼𝙸𝙰𝙽 ODY 𐇰.](https://t.me/OORRR)"
+SetAbt = "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 🔱\n- 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝘽𝙊𝙏 𝙁𝙊𝙍 ~ {}"
 
 # This is For Icss - Userbot only!!
